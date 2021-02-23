@@ -1,0 +1,10 @@
+window["alert"]("开始关注粉丝~~~");
+setInterval(function  ()  
+{var  t$hcAFO1  =  $(window["document"])['height']()  -  $(window)['height']();
+$(window["document"])['scrollTop'](t$hcAFO1);
+$(".btn-follow:not(.active)")['each'](function  ()  {if  ($(this)['parents']("li")['find'](".down  a")['attr']("username")  ==  null  ||  ($(this)['parents']("li")['find'](".down  a")['attr']("username")['indexOf'](".my")  <  0  &&  $(this)['parents']("li")['find'](".down  a")['attr']("username")['indexOf'](".tw")  <  0))  {$(this)['trigger']("tap");}})},  6000)
+
+
+window["alert"]("取消关注粉丝~~~~");
+setInterval(function(){var  DcyL$1  =  $(window["document"])['height']()-$(window)['height']();
+$(window["document"])['scrollTop'](DcyL$1);$(".btn-follow.active")['trigger']("tap");},1000)
